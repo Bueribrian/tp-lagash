@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <style>
+    .ocultar{
+        display: none;
+    }
+    </style>
+    <title>Title</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-4">
+                <form class="" id="form">
+                    <div class="form-group">
+                        <label for="estado-patente">Patente</label>
+                        <input  type="text" class="form-control" id="estado-patente" aria-describedby="emailHelp" placeholder="Nro de patente">
+                        <small  class="form-text text-muted">Ingrese su  patente para comprobar su estado</small>
+                    </div>
+                    <a  id="boton" class="btn btn-primary" >Submit</a>
+                </form>
+            </div>
+        <div class="col">
+                    <div class="card" >
+                            <div class="card-body">
+                              <h3 id="nro-patente" class="card-title">Patente: </h3>
+                              <p id="estado-auto" class="card-text">Estado: </p>
+                              <p id="monto-a-pagar" class="card-text">Monto a pagar: </p>
+                              <p id="tiempo" class="card-text">Tiempo transcurrido: </p>
+                              <div id="retirar" class="btn btn-success">Retirar Auto</div>
+                            </div>
+                          </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
