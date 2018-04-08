@@ -6,6 +6,7 @@ window.onload = function () {
     var tiempoTranscurrido = document.getElementById("tiempo")
     var boton = document.getElementById("boton")
     var form = document.getElementById("form")
+    var retirarAuto=document.getElementById("retirar")
     var n = 45;
 
 
@@ -48,6 +49,9 @@ var controladorParquimetro = function () {
     }
     
 }
+retirarAuto.addEventListener("click", function(){
+    alert("Auto retirado")
+})
 
 boton.addEventListener("click", controladorParquimetro)
 
