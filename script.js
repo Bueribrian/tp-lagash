@@ -49,9 +49,7 @@ var controladorParquimetro = function () {
     }
     
 }
-retirarAuto.addEventListener("click", function(){
-    alert("Auto retirado")
-})
+retirarAuto.addEventListener("click", alert("Auto retirado"))
 
 boton.addEventListener("click", controladorParquimetro)
 
