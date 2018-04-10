@@ -11,7 +11,7 @@ window.onload = function () {
 
 
     var auto = {
-        patente: "TXT111",
+        patente: "DE9ORJ",
         email: "mycar@hotmail.com",
         estado: true,
         tiempo: tiempo= function(){      
@@ -22,15 +22,15 @@ window.onload = function () {
             },
         tiempoxHora: 2.85,
         }
-        auto.tiempo()
-        
-        }
-var auto2 = {
+         auto.tiempo()
+    var auto2 = {
             patente: "111",
             email: "mycar@hotmail.com",
             estado: true,
             tiempo: 0,
             tiempoxHora: 1.60,
+        }
+
 var controladorParquimetro = function () {
     if (inputPatente.value === auto.patente) {
         EnroPatente.innerHTML += auto.patente;
@@ -49,7 +49,6 @@ var controladorParquimetro = function () {
     }
     
 }
-
 
 boton.addEventListener("click", controladorParquimetro)
 
