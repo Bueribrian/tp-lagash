@@ -23,14 +23,14 @@ window.onload = function () {
         tiempoxHora: 2.85,
         }
         auto.tiempo()
-        var auto2 = {
+        
+        }
+var auto2 = {
             patente: "111",
             email: "mycar@hotmail.com",
             estado: true,
             tiempo: 0,
             tiempoxHora: 1.60,
-        }
-
 var controladorParquimetro = function () {
     if (inputPatente.value === auto.patente) {
         EnroPatente.innerHTML += auto.patente;
@@ -49,7 +49,7 @@ var controladorParquimetro = function () {
     }
     
 }
-retirarAuto.addEventListener("click", alert("Auto retirado"))
+
 
 boton.addEventListener("click", controladorParquimetro)
 
