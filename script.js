@@ -11,7 +11,7 @@ window.onload = function () {
 
 
     var auto = {
-        patente: "DE9ORJ",
+        patente: "TXT111",
         email: "mycar@hotmail.com",
         estado: true,
         tiempo: tiempo= function(){      
